@@ -11,7 +11,7 @@ export async function transformSlideshows(
     tree,
     "mdxJsxFlowElement",
     async (node: JsxNode) => {
-      if (node.name === "CH.Slideshow") {
+      if (node.name === "CH.Slideshow" || node.name === "CH.CustomSlideshow") {
         await transformSlideshow(node, config)
       }
     }

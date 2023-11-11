@@ -1,0 +1,25 @@
+.ch-custom-slideshow {
+  margin: 1rem 0;
+}
+
+.ch-custom-slideshow-slide {
+  display: flex;
+  flex-flow: row;
+  gap: 0.5rem;
+  align-items: stretch;
+  aspect-ratio: 16 / 9;
+}
+
+.ch-custom-slideshow-slide .ch-codegroup,
+.ch-custom-slideshow-slide .ch-codeblock {
+  flex: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.ch-custom-slideshow .ch-custom-slideshow-preview {
+  flex: 1;
+  height: auto;
+  min-width: 0;
+}

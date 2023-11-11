@@ -8,6 +8,7 @@ import { Spotlight } from "./mdx-client/spotlight"
 import { Scrollycoding } from "./mdx-client/scrollycoding"
 import { CodeSlot, PreviewSlot } from "./mdx-client/slots"
 import { Slideshow } from "./mdx-client/slideshow"
+import { CustomSlideshow } from "./mdx-client/custom-slideshow"
 import {
   annotationsMap,
   Annotation,
@@ -31,6 +32,7 @@ export {
   annotationsMap as annotations,
   Annotation,
   Slideshow,
+  CustomSlideshow,
   InlineCode,
   CodeSlot,
   PreviewSlot,
@@ -49,6 +51,7 @@ export const CH: MDXComponents = {
   annotations: annotationsMap,
   Annotation,
   Slideshow,
+  CustomSlideshow,
   InlineCode,
   CodeSlot,
   PreviewSlot,
